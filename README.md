@@ -26,3 +26,4 @@ The scripts have been run against `black` completely and `pylint` partially.
 
 
 
+PS: Additional branch added with the thought process. This not merged to main yet. Please check the thought process file [here].(https://github.com/yashika51/transaction-analysis/blob/90308d05a6ad65c36a5e39aa516de5b4d320ec03/thought_process.md)
