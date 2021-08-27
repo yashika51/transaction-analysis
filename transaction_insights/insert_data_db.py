@@ -7,6 +7,8 @@ from process_data import ProcessData
 import sqlite3
 
 os.environ["DJANGO_ALLOW_ASYNC_UNSAFE"] = "true"
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "transaction_insights.settings")
+
 from expense_data.models import ExpenseData
 
 process_data_object = ProcessData()
